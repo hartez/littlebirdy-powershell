@@ -6,7 +6,7 @@
   #>
 
 # GhostScript path - you may have to change this depending on your installation
-$gspath = "C:\Program Files\gs\gs9.06\bin\gswin64.exe"
+$gspath = "C:\Program Files\gs\gs9.19\bin\gswin64.exe"
 
 # Make sure GhostScript is installed
 if(!(Test-Path $gspath)) {
